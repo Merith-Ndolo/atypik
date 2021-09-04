@@ -1,0 +1,13 @@
+{
+  "reporters": [
+    "default",
+    [
+      "./node_modules/jest-html-reporter",
+      {
+        "Tests reports": "Test Report",
+        "testResultsProcessor": "./node_modules/jest-html-reporter"
+      }
+    ]
+  ],
+  "modulePathIgnorePatterns": ["./cypress"]
+}

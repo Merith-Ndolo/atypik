@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" href="./img/fond.jpg" />
+    <meta name="robots" content="index,follow" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      http-equiv="Content-Security-Policy"
+      content="upgrade-insecure-requests"
+    />
+    <meta
+      name="description"
+      content="Web site created using create-react-app"
+    />
+    <meta name="theme-color" content="#ffffff" />
+    <title>Atypikhouse, location des yourtes, cabane dans les arbres...</title>
+    <meta
+      name="description"
+      content="louer un habitat atypique, cabane en bois flottante ou dans les abres, des bulles transparentes, yourtes, etc."
+    />
+    <link rel="canonical" href="https://atypikhous.herokuapp.com" />
+    <link
+      rel="preload"
+      href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
+      as="style"
+      onload="this.onload=null;this.rel='stylesheet'"
+    />
+    <noscript
+      ><link
+        rel="stylesheet"
+        href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
+    /></noscript>
+
+    <link
+      rel="preload"
+      href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"
+      as="style"
+      onload="this.onload=null;this.rel='stylesheet'"
+    />
+    <noscript
+      ><link
+        rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"
+    /></noscript>
+
+    <link
+      rel="preload"
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap"
+      as="style"
+      onload="this.onload=null;this.rel='stylesheet'"
+    />
+    <noscript
+      ><link
+        rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap"
+    /></noscript>
+    <link rel="apple-touch-icon" href="./img/fondapple.png" />
+    <link rel="manifest" href="./manifest.json" />
+  </head>
+  <body>
+    <div id="root"></div>
+    <script
+      src="https://www.google.com/recaptcha/api.js?onload=onloadCallback&render=explicit"
+      async
+    ></script>
+    <script>
+      if ("serviceWorker" in navigator) {
+        window.addEventListener("load", () => {
+          navigator.serviceWorker
+            .register("./serviceworker.js")
+            .then((reg) => console.log("Success: ", reg.scope))
+            .catch((err) => console.log("Failure: ", err));
+        });
+      }
+    </script>
+  </body>
+</html>

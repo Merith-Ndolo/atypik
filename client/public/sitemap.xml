@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+    <url>   
+        <loc>https://atypikhous.herokuapp.com/</loc>
+        <lastmod>2021-08-30T14:41:48+00:00</lastmod>    
+    </url>
+
+    <url>
+        <loc>https://atypikhous.herokuapp.com/home</loc>
+        <lastmod>2021-08-30T14:41:48+00:00</lastmod>
+    </url>
+
+     <url>
+        <loc>https://atypikhous.herokuapp.com/profil</loc>
+        <lastmod>2021-08-30T14:41:48+00:00</lastmod>
+    </url>
+
+     <url>
+        <loc>https://atypikhous.herokuapp.com/profil_pro</loc>
+        <lastmod>2021-08-30T14:41:48+00:00</lastmod>
+    </url>
+
+     <url>
+        <loc>https://atypikhous.herokuapp.com/bestof</loc>
+        <lastmod>2021-08-30T14:41:48+00:00</lastmod>
+    </url>
+
+     <url>
+        <loc>https://atypikhous.herokuapp.com/favoris</loc>
+        <lastmod>2021-08-30T14:41:48+00:00</lastmod>
+    </url>
+
+     <url>
+        <loc>https://atypikhous.herokuapp.com/conditions</loc>
+        <lastmod>2021-08-30T14:41:48+00:00</lastmod>
+    </url>
+
+     <url>
+        <loc>https://atypikhous.herokuapp.com/forgot</loc>
+        <lastmod>2021-08-30T14:41:48+00:00</lastmod>
+    </url>
+
+     <url>
+        <loc>https://atypikhous.herokuapp.com/profil</loc>
+        <lastmod>2021-08-30T14:41:48+00:00</lastmod>
+    </url>
+    
+</urlset>
